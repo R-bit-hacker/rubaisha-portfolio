@@ -38,7 +38,7 @@ st.set_page_config(page_title="Rubaisha Munir Portfolio", page_icon="🚀", layo
 # Header
 col1, col2 = st.columns([1,3])
 with col1:
-    st.image("images/profile.jpeg", width=180)
+    st.image("images/profile.png", use_container_width=True)  # ✅ Fixed profile image
 with col2:
     st.title("🌟 Rubaisha Munir")
     st.subheader("Machine Learning & Data Science Enthusiast 🚀")
@@ -59,7 +59,7 @@ for proj in projects:
         col1, col2 = st.columns([1,3])
         with col1:
             if proj.get("image"):
-                st.image(proj["image"], use_column_width=True)
+                st.image(proj["image"], use_container_width=True)  # ✅ Updated everywhere
         with col2:
             st.write(proj["description"])
             st.write(f"**Tech Stack:** {', '.join(proj['tech'])}")
