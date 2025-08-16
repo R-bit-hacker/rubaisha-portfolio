@@ -38,7 +38,7 @@ st.set_page_config(page_title="Rubaisha Munir Portfolio", page_icon="🚀", layo
 # Header
 col1, col2 = st.columns([1,3])
 with col1:
-    st.image("images/profile.png", use_container_width=True)  # ✅ Fixed profile image
+    st.image("images/profile.jpeg", use_container_width=True)  # ✅ Fixed profile image
 with col2:
     st.title("🌟 Rubaisha Munir")
     st.subheader("Machine Learning & Data Science Enthusiast 🚀")
@@ -68,3 +68,4 @@ for proj in projects:
 # Footer
 st.markdown("---")
 st.write("© 2025 Rubaisha Munir — Built with ❤️ and Streamlit")
+
