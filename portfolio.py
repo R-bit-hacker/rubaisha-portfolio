@@ -13,7 +13,7 @@ projects = [
         "title": "Tweets Depression Detection App",
         "description": "Streamlit app that detects depressive signals in tweets. Logistic Regression with TF-IDF, SMOTE balancing, deployed with Streamlit.",
         "tech": ["Python", "scikit-learn", "Streamlit", "SMOTE"],
-        "impact": "3 days of debugging → one sukoon moment 😌 when it finally ran successfully.",
+        "impact": "3 days of debugging → moment of success 😌 when it finally ran successfully.",
         "image": "images/depression.jpeg",
     },
     {
@@ -68,4 +68,5 @@ for proj in projects:
 # Footer
 st.markdown("---")
 st.write("© 2025 Rubaisha Munir — Built with ❤️ and Streamlit")
+
 
